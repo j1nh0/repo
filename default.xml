@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!--DEFINITIONS-->
+ <!--ORIGIN-->
+ <remote name="origin"  fetch=".."  revision="main"/>
+ <!--GITHUB-->
+ <remote name="github" fetch="https://github.com"/>
+ <remote name="githubmain" fetch="https://github.com" revision="main"/>
+ <remote name="githubmaster" fetch="https://github.com" revision="master"/>
+ <remote name="githubdev" fetch="https://github.com" revision="dev"/>
+ <remote name="githubdevelopment" fetch="https://github.com" revision="development"/>
+ <!--GITLAB-->
+ <remote name="gitlab" fetch="https://gitlab.com"/>
+ <remote name="gitlabmain" fetch="https://gitlab.com" revision="main"/>
+ <remote name="gitlabmaster" fetch="https://gitlab.com" revision="master"/>
+ <remote name="gitlabdev" fetch="https://gitlab.com" revision="dev"/>
+ <remote name="gitlabdevelopment" fetch="https://gitlab.com" revision="development"/>
+ <!--GITEA-->
+ <remote name="gitea" fetch="http://gitea.local"/>
+ <remote name="giteamain" fetch="http://gitea.local" revision="main"/>
+ <remote name="giteamaster" fetch="http://gitea.local" revision="master"/>
+ <remote name="giteadev" fetch="http://gitea.local" revision="dev"/>
+ <remote name="giteadevelopment" fetch="http://gitea.local" revision="development"/>
+ <!--GIST-->
+ <remote name="gitgist" fetch="https://gist.github.com"/>
+ <!--GOOGLE ANDROID-->
+ <remote name="googleandroid" fetch="https://android.googlesource.com"/>
+ <remote name="googleandroidmaster" fetch="https://android.googlesource.com" revision="master"/>
+ <!--J1NH0-->
+ <remote name="j1nh0ssh" fetch="ssh://git@github.com/j1nh0" revision="main"/>
+ <remote name="j1nh0https" fetch="https://github.com/j1nh0" revision="main"/>
+ <!--DEFAULT BEHAVIOR-->
+ <default remote="j1nh0https"/>
+</manifest>
