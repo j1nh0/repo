@@ -9,18 +9,21 @@
  <remote name="githubmaster" fetch="https://github.com" revision="master"/>
  <remote name="githubdev" fetch="https://github.com" revision="dev"/>
  <remote name="githubdevelopment" fetch="https://github.com" revision="development"/>
+ <remote name="githubmerging" fetch="https://github.com" revision="merging"/>
  <!--GITLAB-->
  <remote name="gitlab" fetch="https://gitlab.com"/>
  <remote name="gitlabmain" fetch="https://gitlab.com" revision="main"/>
  <remote name="gitlabmaster" fetch="https://gitlab.com" revision="master"/>
  <remote name="gitlabdev" fetch="https://gitlab.com" revision="dev"/>
  <remote name="gitlabdevelopment" fetch="https://gitlab.com" revision="development"/>
+ <remote name="gitlabmerging" fetch="https://gitlab.com" revision="merging"/>
  <!--GITEA-->
  <remote name="gitea" fetch="http://gitea.local"/>
  <remote name="giteamain" fetch="http://gitea.local" revision="main"/>
  <remote name="giteamaster" fetch="http://gitea.local" revision="master"/>
  <remote name="giteadev" fetch="http://gitea.local" revision="dev"/>
  <remote name="giteadevelopment" fetch="http://gitea.local" revision="development"/>
+ <remote name="giteamerging" fetch="http://gitea.local" revision="merging"/>
  <!--GIST-->
  <remote name="gitgist" fetch="https://gist.github.com"/>
  <!--GOOGLE ANDROID-->
