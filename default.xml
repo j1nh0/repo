@@ -2,7 +2,7 @@
 <manifest>
  <!--DEFINITIONS-->
  <!--ORIGIN-->
- <remote name="origin"  fetch=".."  revision="main"/>
+ <remote name="origin" fetch=".." revision="main"/>
  <!--GITHUB-->
  <remote name="github" fetch="https://github.com"/>
  <remote name="githubmain" fetch="https://github.com" revision="main"/>
@@ -33,5 +33,5 @@
  <remote name="j1nh0ssh" fetch="ssh://git@github.com/j1nh0" revision="main"/>
  <remote name="j1nh0https" fetch="https://github.com/j1nh0" revision="main"/>
  <!--DEFAULT BEHAVIOR-->
- <default remote="j1nh0https"/>
+ <default remote="j1nh0ssh"/>
 </manifest>
